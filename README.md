@@ -1,6 +1,5 @@
 # Skryptowy Python – Lab 3: CSV/JSON CLI
 
-Uwaga: projekt został wykonany samodzielnie ze względu na trudności ze znalezieniem grupy.
 
 ## Opis
 Narzędzie CLI tworzy i/lub odczytuje pliki CSV/JSON w strukturze katalogów Miesiąc/Dzień/Pora. W trybie odczytu sumuje wartości „Czas” wyłącznie dla rekordów, w których „Model” = „A”.
@@ -78,3 +77,7 @@ W trybie `--read` skrypt sumuje wartości „Czas” tylko dla plików, w który
 ## Uwagi
 - Dopuszczalne skróty i formy bez polskich znaków dla dni tygodnia (np. `pn`, `wt`, `sr`, `cz`, `pt`, `so`, `nd`).
 - Brakujące pozycje w `-p/--times` uzupełniane są domyślnie jako „rano”.
+  
+  ##
+  Uwaga: projekt został wykonany samodzielnie ze względu na trudności ze znalezieniem grupy.
+
