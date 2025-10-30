@@ -21,25 +21,25 @@ python moj_skrypt.py -h
 ## Przykłady
 Tworzenie plików CSV i JSON dla dwóch miesięcy, z rozwinięciem dni i porami dnia:
 ```
-python moj_skrypt.py -m styczeń luty -d pn-wt pt -p r w --create --csv --json
+python moj_skrypt.py -m "styczeń,luty" -d "pn-wt,pt" -p "r,w" -t -c -j
 
 ```
 Odczyt i podsumowanie czasu (Model=A) dla tych samych ścieżek:
 ``` 
-python moj_skrypt.py -m styczeń luty -d pn-wt pt --read --csv --json
+python moj_skrypt.py -m "styczeń,luty" -d "pn-wt,pt" -p "r,w" -c -j
 
 ```
 
 Dodatkowe opcje:
 - Zmiana katalogu bazowego:
 ```
-python moj_skrypt.py ... --base .
+python moj_skrypt.py -m "styczeń,luty" -d "pn-wt,pt" -p "r,w" -t -c -j --root .
 
 ```
 - Zakaz nadpisywania istniejących plików:
 
 ```
-python moj_skrypt.py ... --no-overwrite
+python moj_skrypt.py -m "styczeń,luty" -d "pn-wt,pt" -p "r,w" -t -c -j --no-overwrite
 
 ```
 
